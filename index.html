@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hudson</title>
+
+    <script>
+      document.documentElement.classList.remove("no-js");
+      document.documentElement.classList.add("js");
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.jpg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.jpg" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.jpg" />
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
+
+  <body id="top">
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+      <div id="loader" class="dots-fade">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+      <!-- # site header 
+        ================================================== -->
+      <header class="s-header">
+        <div class="row s-header__inner">
+          <div class="s-header__block">
+            <div class="s-header__logo">
+              <a class="logo" href="index.html">
+                <img src="images/Logo3.png" alt="Homepage" />
+              </a>
+            </div>
+
+            <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+          </div>
+          <!-- end s-header__block -->
+
+          <nav class="s-header__nav">
+            <ul class="s-header__menu-links">
+              <li class="current">
+                <a class="smoothscroll" href="#intro">Intro</a>
+              </li>
+              <li><a class="smoothscroll" href="#about">About</a></li>
+              <li><a class="smoothscroll" href="#works">Works</a></li>
+              <li><a class="smoothscroll" href="#footer">Contact</a></li>
+            </ul>
+            <!-- s-header__menu-links -->
+          </nav>
+          <!-- end s-header__nav -->
+        </div>
+        <!-- end s-header__inner -->
+      </header>
+      <!-- end s-header -->
+
+      <!-- # intro
+        ================================================== -->
+      <section id="intro" class="s-intro target-section">
+        <div class="row s-intro__content width-sixteen-col">
+          <div class="column lg-12 s-intro__content-inner grid-block grid-16">
+            <div class="s-intro__content-text">
+              <div class="s-intro__content-pretitle text-pretitle">Hello,</div>
+
+              <h1 class="s-intro__content-title">
+                I'm Sonal Dilmith <br />
+                a Full Stack Developer <br />
+              </h1>
+
+              <div class="s-intro__content-btns">
+                <a class="smoothscroll btn" href="#about">More About Me</a>
+                <a class="smoothscroll btn btn--stroke" href="#footer"
+                  >Get In Touch</a
+                >
+              </div>
+              <!-- s-intro__content-btns -->
+            </div>
+            <!-- s-intro__content-text -->
+          </div>
+          <!-- s-intro__content-inner -->
+        </div>
+        <!-- s-intro__content -->
+
+        <ul class="s-intro__social social-list">
+          <li>
+            <a href="https://www.facebook.com/sonal.dilmith.73/">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1); transform: ; -ms-filter: "
+              >
+                <path
+                  d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"
+                ></path>
+              </svg>
+              <span class="u-screen-reader-text">Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/_dil_m_ith_">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1); transform: ; -ms-filter: "
+              >
+                <path
+                  d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"
+                ></path>
+                <circle cx="16.806" cy="7.207" r="1.078"></circle>
+                <path
+                  d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"
+                ></path>
+              </svg>
+              <span class="u-screen-reader-text">Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/SonalWelisara">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1); transform: ; -ms-filter: "
+              >
+                <path
+                  d="M12,2C6.477,2,2,6.484,2,12.017c0,4.417,2.865,8.164,6.839,9.504c0.499,0.09,0.679-0.217,0.679-0.481 c0-0.237-0.008-0.865-0.013-1.704c-2.782,0.601-3.369-1.346-3.369-1.346c-0.454-1.156-1.11-1.465-1.11-1.465 c-0.908-0.619,0.069-0.605,0.069-0.605c1.007,0.074,1.532,1.03,1.532,1.03c0.892,1.529,2.341,1.089,2.91,0.833 c0.091-0.647,0.35-1.088,0.636-1.338c-2.221-0.251-4.557-1.114-4.557-4.901c0-1.083,0.389-1.973,1.024-2.67c-0.103-0.252-0.446-1.264,0.097-2.639c0,0,0.837-0.268,2.742,1.021c0.799-0.222,1.652-0.332,2.502-0.337 c0.85,0.005,1.703,0.115,2.502,0.337c1.905-1.29,2.742-1.021,2.742-1.021c0.545,1.375,0.203,2.387,0.097,2.639 c0.635,0.697,1.024,1.587,1.024,2.67c0,3.796-2.339,4.646-4.568,4.897c0.354,0.308,0.67,0.917,0.67,1.847c0,1.333-0.012,2.41-0.012,2.737c0,0.267,0.18,0.577,0.685,0.479C19.137,20.177,22,16.427,22,12.017C22,6.484,17.522,2,12,2z"
+                ></path>
+              </svg>
+              <span class="u-screen-reader-text">Github</span>
+            </a>
+          </li>
+        </ul>
+        <!-- end s-intro__social -->
+
+        <div class="s-intro__content-media">
+          <img
+            src="images/her.jpg"
+            srcset="images/her.jpg 1x, images/her.jpg 2x"
+            alt=""
+          />
+        </div>
+        <!-- s-intro__content-media -->
+
+        <div class="s-intro__btn-download">
+          <a
+            class="btn btn--stroke"
+            href="downloads/MyCV.pdf"
+            download="SonalCV.pdf"
+            >Get My CV</a
+          >
+        </div>
+        <!-- end s-intro__btn-download -->
+
+        <div class="s-intro__scroll-down">
+          <a href="#about" class="smoothscroll">
+            <div class="scroll-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1); transform: ; msfilter: "
+              >
+                <path
+                  d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"
+                ></path>
+              </svg>
+            </div>
+            <span class="scroll-text u-screen-reader-text">Scroll Down</span>
+          </a>
+        </div>
+        <!-- s-intro__scroll-down -->
+      </section>
+      <!-- end s-intro -->
+
+      <!-- # about
+        ================================================== -->
+      <section id="about" class="s-about target-section">
+        <div class="row s-about__content">
+          <div class="column xl-12">
+            <div class="section-header" data-num="01">
+              <h2 class="text-display-title">About Me.</h2>
+            </div>
+            <!-- end section-header -->
+
+            <p class="attention-getter">
+              I'm a final-year software engineering student and a passionate
+              Full Stack Developer. I love bringing ideas to life by building
+              dynamic and scalable applications. My go-to technologies include
+              the MERN stack, and I also have solid experience with Spring Boot
+              and Java. I enjoy creating seamless user interfaces with React and
+              Flutter, while also building robust back-end systems using
+              Node.js. I'm constantly learning and currently growing my skills
+              in Python, especially for deep learning purposes, to stay on top
+              of the latest industry trends and build high-quality solutions.
+            </p>
+
+            <p class="attention-getter">
+              What truly drives me is the belief that technology can transform
+              innovative ideas into reality. I’m committed to a journey of
+              continuous learning, always on the lookout for new challenges.
+              Whether I'm focused on a user-friendly front end or a powerful
+              back-end, I’m passionate about every step of the development
+              process. My ultimate goal is to contribute to projects that have a
+              meaningful and lasting impact through technology.
+            </p>
+
+            <div class="grid-list-items s-about__blocks">
+              <div class="grid-list-items__item s-about__block">
+                <h4 class="s-about__block-title">Education</h4>
+                <ul class="s-about__list">
+                  <li>
+                    Sri Lanka Institute of Information Technology
+                    <span
+                      >BSc (Hons) in Information Technology Specializing in
+                      Software Engineering (2022 - 2026)</span
+                    >
+                  </li>
+                  <li>
+                    TAXILA CENTRAL COLLEGE
+                    <span
+                      >G.C.E. Advanced Level Examination in 2021, Physical
+                      Science Stream</span
+                    >
+                  </li>
+                  <li>
+                    TAXILA CENTRAL COLLEGE
+                    <span>G.C.E. Ordinary Level Examination in 2018</span>
+                  </li>
+                </ul>
+              </div>
+              <!--end s-about__block -->
+
+              <div class="grid-list-items__item s-about__block">
+                <h4 class="s-about__block-title">Awards</h4>
+
+                <ul class="s-about__list">
+                  <li>
+                    Dean’s List
+                    <span>Issued by SLIIT (Jul -Dec 2022)</span>
+                  </li>
+                  <li>
+                    Dean’s List
+                    <span>Issued by SLIIT (Jan - June 2023)</span>
+                  </li>
+                </ul>
+              </div>
+              <!--end s-about__block -->
+
+              <div class="grid-list-items__item s-about__block">
+                <h4 class="s-about__block-title">Volunteering</h4>
+
+                <ul class="s-about__list">
+                  <li>
+                    Senior Prefect of Taxila Central College
+                    <span>2019 - 2020</span>
+                  </li>
+                  <li>
+                    Cadet of National Cadet Corps Sri Lanka
+                    <span>2017 - 2021</span>
+                  </li>
+                </ul>
+              </div>
+              <!--end s-about__block -->
+            </div>
+            <!-- grid-list-items -->
+          </div>
+          <!--end column -->
+        </div>
+        <!--end s-about__content -->
+      </section>
+      <!-- end s-about -->
+
+      <!-- # works
+        ================================================== -->
+      <section id="works" class="s-works target-section">
+        <div class="row">
+          <div class="column xl-12">
+            <div class="section-header" data-num="02">
+              <h2 class="text-display-title">Selected Works.</h2>
+            </div>
+            <!-- end section-header -->
+          </div>
+        </div>
+
+        <div class="row folio-entries">
+          <div class="column entry">
+            <div class="project-item">
+              <div class="project-text">
+                <h3>Dressing Room</h3>
+                <p>
+                  Dressing Room is a desktop application that redefines online
+                  clothing retail by offering a virtual try-on experience using
+                  a webcam. Built with React, this software leverages
+                  TensorFlow's PoseNet model to detect a user's body in real
+                  time. The application then accurately superimposes clothing
+                  items onto the user's live video feed, allowing them to
+                  visualize how different clothes fit and look before making a
+                  purchase. This innovative approach enhances the shopping
+                  experience by blending computer vision with e-commerce,
+                  helping users feel more confident in their purchasing
+                  decisions and reducing the uncertainty of online shopping.
+                </p>
+              </div>
+              <div class="project-image">
+                <img
+                  src="images/folio/Dressingroom.png"
+                  alt="Screenshot of the Dressing Room application dashboard"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- entry -->
+
+          <div class="column entry">
+            <div class="project-item">
+              <div class="project-text">
+                <h3>Aquaguard</h3>
+                <p>
+                  Aquaguard is a mobile application developed in alignment with
+                  the UN's Sustainable Development Goal 6: Clean Water and
+                  Sanitation. It serves as a community-driven platform for
+                  monitoring and discussing water quality. The app empowers
+                  users to actively participate by logging in and sharing
+                  information about local water sources, water quality, and
+                  potential hazards through a built-in forum inspired by Reddit.
+                  This collective data contributes to a comprehensive, real-time
+                  map of water sources and hazards. Aquaguard's core
+                  functionality not only raises awareness but also enables
+                  communities to take proactive steps toward ensuring access to
+                  safe drinking water, making it a powerful tool for social and
+                  environmental impact.
+                </p>
+              </div>
+              <div class="project-image">
+                <img
+                  src="images/folio/Aquagaurd.jpeg"
+                  alt="Screenshot of the Aquagaurd application dashboard"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- entry -->
+
+          <div class="column entry">
+            <div class="project-item">
+              <div class="project-text">
+                <h3>YourNotes</h3>
+                <p>
+                  YourNotes is a mobile note-taking application built with
+                  Flutter, designed to provide a clean and intuitive user
+                  experience similar to Google Keep. The app allows users to
+                  create, edit, and organize their notes efficiently. To ensure
+                  fast and reliable performance, YourNotes utilizes the Hive
+                  database for local data storage, keeping all user data
+                  securely on the device's internal memory. This approach
+                  prioritizes user privacy and provides a seamless offline
+                  experience, making it a dependable tool for capturing ideas
+                  and staying organized on the go.
+                </p>
+              </div>
+              <div class="project-image">
+                <img
+                  src="images/folio/yournotes.jpg"
+                  alt="Screenshot of the YourNotes application dashboard"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- entry -->
+
+          <div class="column entry">
+            <div class="project-item">
+              <div class="project-text">
+                <h3>Tailwaggers</h3>
+                <p>
+                  Tailwaggers is an online pet care system that provides a
+                  centralized platform for pet owners to access essential care
+                  resources and interact with veterinary experts. This web
+                  application streamlines pet care management by offering
+                  features like appointment scheduling and a comprehensive
+                  knowledge base of articles and FAQs. Built with HTML, CSS, and
+                  JavaScript for the frontend and PHP for the backend, this
+                  project demonstrates my ability to create a full-stack,
+                  user-friendly solution from the ground up, with a focus on
+                  delivering a seamless and efficient experience for pet owners.
+                </p>
+              </div>
+              <div class="project-image">
+                <img
+                  src="images/folio/tailwaggers.pngF"
+                  alt="Screenshot of the Dressing Room application dashboard"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- entry -->
+        </div>
+        <!-- folio entries -->
+      </section>
+      <!-- end s-works -->
+
+      <!-- # footer 
+        ================================================== -->
+      <footer id="footer" class="s-footer target-section">
+        <div class="row">
+          <div class="column lg-12">
+            <div class="section-header light-on-dark" data-num="03">
+              <h2 class="text-display-title">Get In Touch.</h2>
+            </div>
+            <!-- end section-header -->
+          </div>
+        </div>
+
+        <div class="row s-footer__content">
+          <div class="column xl-6 md-12 s-footer__block s-footer__about">
+            <p class="attention-getter">
+              Feel free to connect! I'm always eager to discuss new projects and
+              opportunities in software engineering. Let's chat about how my
+              passion for technology can help bring your ideas to life.
+            </p>
+          </div>
+          <!-- end section-footer__about -->
+
+          <div class="column xl-6 md-12 s-footer__block s-footer__site-links">
+            <div class="row">
+              <div class="column xl-4 lg-5 md-6 tab-12">
+                <h5>Follow Me</h5>
+                <ul class="link-list">
+                  <li>
+                    <a href="https://www.facebook.com/sonal.dilmith.73/"
+                      >Facebook
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/_dil_m_ith_"
+                      >Instagram</a
+                    >
+                  </li>
+                  <li><a href="https://github.com/SonalWelisara">Github</a></li>
+                </ul>
+              </div>
+              <div class="column xl-6 md-6 tab-12">
+                <h5>Contact Me</h5>
+                <ul class="link-list">
+                  <li>
+                    <a href="mailto:sonaldilmith15@gmail.com"
+                      >sonaldilmith15@gmail.com</a
+                    >
+                  </li>
+                  <li><a href="tel:+94764818310">+947 648 18310</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- end section-footer__site-links -->
+        </div>
+        <!-- end section-footer__content -->
+
+        <div class="row s-footer__buttons">
+          <div class="column xl-6 tab-12">
+            <a
+              href="mailto:sonaldilmith15@gmail.com"
+              class="btn btn--primary btn--large u-fullwidth"
+              >Message Me</a
+            >
+          </div>
+
+          <div class="column xl-6 tab-12">
+            <a
+              href="downloads/MyCV.pdf"
+              class="btn btn--stroke btn--large u-fullwidth"
+              download="SonalCV.pdf"
+            >
+              Get My CV
+            </a>
+          </div>
+        </div>
+        <!-- end section-footer__buttons -->
+
+        <div class="ss-go-top">
+          <a class="smoothscroll" title="Back to Top" href="#top">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              style="fill: rgba(0, 0, 0, 1); transform: ; msfilter: "
+            >
+              <path
+                d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"
+              ></path>
+            </svg>
+          </a>
+          <span>Back To Top</span>
+        </div>
+        <!-- end ss-go-top -->
+      </footer>
+      <!-- end s-footer -->
+    </div>
+    <!-- end page-wrap -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
